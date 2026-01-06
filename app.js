@@ -40,8 +40,8 @@ const firebaseConfig = {
   authDomain: "",
   projectId: "",
   storageBucket: "",
-  messagingSenderId: " ",
-  appId: " ",
+  messagingSenderId: "",
+  appId: "",
 };
 
 const app = initializeApp(firebaseConfig);
@@ -167,7 +167,7 @@ document
   .querySelectorAll("#logout")
   .forEach((btn) => btn.addEventListener("click", logout));
 
-// --- Phone Auth Logic ---
+ 
 window.recaptchaVerifier = new RecaptchaVerifier(auth, "sign-in-button", {
   size: "invisible",
 });
@@ -175,7 +175,6 @@ window.recaptchaVerifier = new RecaptchaVerifier(auth, "sign-in-button", {
 function onSignInSubmit() {
   const phoneNumber = document.getElementById("phone").value;
   const appVerifier = window.recaptchaVerifier;
-
   Swal.fire({
     title: "Sending SMS...",
     didOpen: () => {
@@ -217,7 +216,6 @@ document.getElementById("verifyBtn").addEventListener("click", () => {
     });
 });
 
-// --- Google Auth ---
 function google() {
   signInWithPopup(auth, provider)
     .then((result) => {
