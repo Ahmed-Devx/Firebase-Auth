@@ -3,7 +3,7 @@
 A modern **Firebase Authentication web app** that allows users to register, log in, and authenticate using **Email/Password, Google OAuth, and Phone Number** — built with plain HTML, JavaScript, and Firebase. 
 
 🔗 **Live Demo:** [https://singular-mermaid-c87205.netlify.app/](https://singular-mermaid-c87205.netlify.app/)  
-📦 **Source Code:** [https://github.com/Ahmed-Devx/Firebase-Auth](https://github.com/Ahmed-Devx/Firebase-Auth)  
+   
 
 ---
 
