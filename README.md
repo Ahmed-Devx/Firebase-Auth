@@ -26,7 +26,7 @@ All powered by **Firebase Authentication** — a secure, scalable user identity 
 * **CSS3**
 * **JavaScript**
 * **Firebase Auth (Firebase JavaScript SDK)**
-* **Netlify (for deployment)**
+ 
 
 ---
  
